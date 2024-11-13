@@ -10,7 +10,7 @@ A real-time dashboard for viewing YouTube live chat messages using Flask, JavaSc
 
 ## Setup
 
-1. **Clone the repository:**
+**1. Clone the repository:**
    ```bash
    git clone https://github.com/username/yt-live-chat-dashboard.git
    cd yt-live-chat-dashboard
@@ -21,17 +21,15 @@ A real-time dashboard for viewing YouTube live chat messages using Flask, JavaSc
 ```
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
 ```
 
-3. **Install the dependencies** :
+**3. Install the dependencies** 
 
    ```
    pip install -r requirements.txt
-
    ```
    * **Set up the YouTube Data API key** :
-   * Go to the [Google Developers Console]().
+   * Go to the [Google Developers Console](https://console.cloud.google.com).
    * Create a new project and enable the YouTube Data API v3.
    * Generate an API key and replace `YOUR_YOUTUBE_API_KEY` in `app.py` with your actual key.
    * You also need the YouTube live stream's video ID. Find this from the live stream URL (`https://www.youtube.com/watch?v=VIDEO_ID`).
