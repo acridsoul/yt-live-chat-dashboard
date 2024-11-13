@@ -4,3 +4,4 @@ __pycache__/
 *.db
 live_chat_log.txt
 venv/
+yt-chat
